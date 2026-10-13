@@ -1,0 +1,23 @@
+# Inventory exports can contain personal and tenant data.
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.log
+*.zip
+output/
+exports/
+
+# Local credentials, connection settings and editor files.
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.credential
+*.clixml
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
